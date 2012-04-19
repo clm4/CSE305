@@ -1,0 +1,20 @@
+CSE305 Project: If you're not on the ABC team, please pretend you didn't see anything.
+
+We will use the command-line options.
+
+First, clone it, after changing to the directory you want to the project folder to live in.
+$ git clone git@github.com:zz3599/CSE305.git
+
+Inside the directory of the cloned repo, init the upstream so you can keep track of the origin source location (zz3599)
+$ git remote add upstream git://github.com/zz3599/CSE305.git
+$ git fetch upstream
+
+You now have a copy of your own. To commit to your local repository (always do this first)
+$ git push origin
+
+To submit a pull request (merge), 
+Check out http://help.github.com/send-pull-requests/
+
+I will merge as needed.
+
+
